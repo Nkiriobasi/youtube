@@ -18,8 +18,7 @@
 
 ## Screenshots
 
-    ![Alt Text](./public/assets/youtube.png)
-
+    <img src="./public/assets/youtube.png" height="60" width="60" >
 
 ## Technologies
 
