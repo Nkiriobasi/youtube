@@ -18,13 +18,12 @@
 
 ## Screenshots
 
-    ![Alt Text](./public/assets/youtube.png)
-
+    ![youtube](https://github.com/Nkiriobasi/youtube/assets/88588310/311815cc-007e-4050-8a01-e5649c23e9af)
 
 ## Technologies
 
     NextJs, Typescript, Tailwind, Prettier, EsLint, npm,
-
+ 
 ## Backend Api
 
 ## Folder Structure
