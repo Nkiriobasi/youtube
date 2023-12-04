@@ -23,7 +23,7 @@
 ## Technologies
 
     NextJs, Typescript, Tailwind, Prettier, EsLint, npm,
-
+ 
 ## Backend Api
 
 ## Folder Structure
