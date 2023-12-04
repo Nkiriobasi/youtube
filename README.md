@@ -16,10 +16,6 @@
     - Comments and Likes: Foster engagement through comments and likes on videos.
     - Responsive Design: A responsive and mobile-friendly layout for a consistent experience across devices.
 
-## Screenshots
-
-    <img src="./public/assets/youtube.png" height="60" width="60" >
-
 ## Technologies
 
     NextJs, Typescript, Tailwind, Prettier, EsLint, npm,
