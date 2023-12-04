@@ -18,6 +18,9 @@
 
 ## Screenshots
 
+    ![Alt Text](./public/assets/youtube.png)
+
+
 ## Technologies
 
     NextJs, Typescript, Tailwind, Prettier, EsLint, npm,
