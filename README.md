@@ -38,9 +38,9 @@
       # page.tsx - Home route.
     # node_modules - Dependencies.
     # public - Static assets.
-    # .eslintrc.json - Eslint configurations file.
+    # .eslintrc.json - Eslint configurations.
     # .gitignore - Files and folders to be ignored by git.
-    # .prettierrc - Prettier configurations file.
+    # .prettierrc - Prettier configurations.
     # next.config.js - NextJs configurations.
     # package-lock.json - Npm dependencies and run scripts (No cause for editing).
     # package.json - Npm dependencies and run scripts.
