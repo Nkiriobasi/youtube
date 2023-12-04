@@ -3,7 +3,9 @@
 
     TubeClone - YouTube Website Clone
 
-    Welcome to TubeClone, a powerful project that aims to replicate the renowned YouTube platform. This web application provides users with a familiar and robust video-sharing experience, featuring a sleek and customizable interface built with modern web technologies.
+    Welcome to TubeClone, a powerful project that aims to replicate the renowned YouTube platform. 
+    This web application provides users with a familiar and robust video-sharing experience, 
+    featuring a sleek and customizable interface built with modern web technologies.
 
     Key Features
 
