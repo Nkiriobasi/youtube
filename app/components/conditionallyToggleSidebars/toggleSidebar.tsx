@@ -1,7 +1,7 @@
 'use client';
 
 import { useContext } from 'react';
-import { VisibilityContext } from '../../context/visibility.context';
+import { VisibilityContext } from '../../context/visibilityContext';
 
 const ToggleSidebar = (): React.JSX.Element => {
   const { sidebarIsActive, setSidebarIsActive } = useContext(VisibilityContext);
