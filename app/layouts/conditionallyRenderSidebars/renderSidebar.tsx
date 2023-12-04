@@ -1,23 +1,14 @@
-"use client"
+'use client';
 
 import { useContext } from 'react';
 import Sidebar from '../sidebar/sidebar';
 import SidebarMini from '../sidebarMini/sidebarMini';
 import { VisibilityContext } from '../../context/visibility.context';
 
+const RenderSidebar = (): React.JSX.Element => {
+  const { sidebarIsActive } = useContext(VisibilityContext);
 
-const RenderSidebar = () => {
-    const { sidebarIsActive } = useContext(VisibilityContext);
+  return <aside>{sidebarIsActive ? <Sidebar /> : <SidebarMini />}</aside>;
+};
 
-    return (
-        <aside>
-            {sidebarIsActive ? (
-                <Sidebar />
-            ) : (
-                <SidebarMini />
-            )}
-        </aside>
-    )
-  }
-  
-  export default RenderSidebar
+export default RenderSidebar;

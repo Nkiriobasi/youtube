@@ -1,28 +1,35 @@
-"use client";
+'use client';
 
-import React, { Dispatch, createContext, SetStateAction, useState } from "react";
+import {
+  type Dispatch,
+  createContext,
+  type SetStateAction,
+  useState,
+} from 'react';
 
 interface VisibilityContextType {
-  sidebarIsActive: boolean
-  setSidebarIsActive: Dispatch<SetStateAction<boolean>>
+  sidebarIsActive: boolean;
+  setSidebarIsActive: Dispatch<SetStateAction<boolean>>;
 }
 
 export const VisibilityContext = createContext<VisibilityContextType>({
   sidebarIsActive: true,
-  setSidebarIsActive: () => {}
-})
+  setSidebarIsActive: () => {},
+});
 
-
-export const VisibilityContextProvider = ({ children }: {children: React.ReactNode}) => {
+export const VisibilityContextProvider = ({
+  children,
+}: {
+  children: React.ReactNode;
+}): React.JSX.Element => {
   const [sidebarIsActive, setSidebarIsActive] = useState<boolean>(true);
-  
+
   return (
-    <VisibilityContext.Provider 
-      value={{ 
-        sidebarIsActive,  
-        setSidebarIsActive 
-      }}
-    >
+    <VisibilityContext.Provider
+      value={{
+        sidebarIsActive,
+        setSidebarIsActive,
+      }}>
       {children}
     </VisibilityContext.Provider>
   );
