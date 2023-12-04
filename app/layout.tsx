@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Theme from '../app/providers/themeProvider';
-import Navbar from '../app/containers/navbar/navbar';
-import RenderSidebar from '../app/containers/conditionallyRenderSidebars/renderSidebar';
+import Navbar from '../app/layouts/navbar/navbar';
+import RenderSidebar from '../app/layouts/conditionallyRenderSidebars/renderSidebar';
 import { VisibilityContextProvider } from '../app/context/visibility.context';
 
 const inter = Inter({ subsets: ['latin'] })
