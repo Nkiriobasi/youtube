@@ -1,8 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { SIDEBARITEMS } from './sidebarMini.constants';
 import { usePathname } from 'next/navigation';
+import { sidebarMiniLinks } from '@/app/constants';
 
 const SidebarMini = (): JSX.Element => {
   const pathname = usePathname();
@@ -10,7 +10,7 @@ const SidebarMini = (): JSX.Element => {
   return (
     <aside className='fixed left-0 bottom-0 top-[56px] w-[80px] inline-block bg-inherit z-[2028] px-1'>
       <div className='mt-1 flex flex-col items-center w-full'>
-        {SIDEBARITEMS.map(
+        {sidebarMiniLinks.map(
           ({ id, href, title, activeSvgElement, inActiveSvgElement }) => {
             const isActive = pathname.startsWith(href);
 

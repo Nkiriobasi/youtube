@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from '../app/layouts/navbar/navbar';
-import RenderSidebar from '../app/layouts/conditionallyRenderSidebars/renderSidebar';
+import RenderSidebar from './layouts/renderSidebar/renderSidebar';
 import { VisibilityContextProvider } from './context/visibilityContext';
 import Theme from './context/themeContext';
 

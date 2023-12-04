@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import images from '../../../public/assets';
-import ToggleSidebar from '../../components/conditionallyToggleSidebars/toggleSidebar';
+import ToggleSidebar from '../../components/toggleSidebar/toggleSidebar';
 
 const Navbar = (): React.JSX.Element => {
   return (
