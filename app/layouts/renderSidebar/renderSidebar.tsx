@@ -8,7 +8,7 @@ import { VisibilityContext } from '../../context/visibilityContext';
 const RenderSidebar = (): React.JSX.Element => {
   const { sidebarIsActive } = useContext(VisibilityContext);
 
-  return <aside>{sidebarIsActive ? <Sidebar /> : <SidebarMini />}</aside>;
+  return <>{sidebarIsActive ? <Sidebar /> : <SidebarMini />}</>;
 };
 
 export default RenderSidebar;
